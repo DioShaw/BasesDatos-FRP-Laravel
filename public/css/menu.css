@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'fredoka';
+  src: url('../fonts/FredokaOne-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'FiraSans';
+  src: url('../fonts/FiraSans-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+#btn-tablero {
+    background-color: #7C00AA; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: FiraSans;
+    margin-top: 10px;
+    width: 175px;
+
+  }
+
+  #btn-tableroC {
+    background-color: #f44336; /* red */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: FiraSans;
+    margin-top: 10px;
+    width: 175px;
+
+  }
+
+  #btn-crear {
+    background-color: #008CBA;/* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 210px;
+  }
+
+
+
+  #btn-buscar{
+
+    background-color: #F7BD26;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 30px;
+  }
+  
+  #tablero {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+ 
+  }
+  
+  .grid-item {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #construccion{ margin-top: 45px;}
+
+  #mensajeeditar{
+    background: royalblue;
+  }
+   
+  #busqueda{
+    border-radius: 6px 6px 6px 6px;
+    width: 508px;
+    height: 46px;
+    margin-top: 15px;
+  }
+
+  #herramientas{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+
+
+#titulos{
+  font-family: fredoka;
+  color: black;
+}
+
+#AsignarRoles
+  {
+    margin-right: 500px;
+    margin-left: 500px;
+  }

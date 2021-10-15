@@ -1,0 +1,36 @@
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
+  }
+
+  @font-face {
+    font-family: 'fredoka';
+    src: url('../fonts/FredokaOne-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'FiraSans';
+    src: url('../fonts/FiraSans-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+#titulos{
+  font-family: fredoka;
+  color: black;
+}
+
+#AsignarRoles
+  {
+    margin-right: 500px;
+    margin-left: 500px;
+  }
